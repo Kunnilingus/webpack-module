@@ -1,0 +1,19 @@
+$button-color-inc: green;
+$button-color-dec: red;
+
+.buttonIncrease {
+  width: 100px;
+  height: 25px;
+  background-color: $button-color-inc;
+  border: 1px solid black;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.buttonDecrease {
+  width: 100px;
+  height: 25px;
+  background-color: $button-color-dec;
+  border: 1px solid black;
+  margin-right: 50px;
+  cursor: pointer;
+}
